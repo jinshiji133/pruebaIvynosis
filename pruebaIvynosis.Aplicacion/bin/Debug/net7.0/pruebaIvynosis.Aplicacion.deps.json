@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "pruebaIvynosis.Aplicacion/1.0.0": {
+        "dependencies": {
+          "pruebaIvynosis.Entities": "1.0.0"
+        },
+        "runtime": {
+          "pruebaIvynosis.Aplicacion.dll": {}
+        }
+      },
+      "pruebaIvynosis.Entities/1.0.0": {
+        "runtime": {
+          "pruebaIvynosis.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "pruebaIvynosis.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "pruebaIvynosis.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

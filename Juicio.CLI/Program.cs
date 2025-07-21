@@ -2,6 +2,8 @@
 using pruebaIvynosis.Aplicacion.pruebaIvynosis.casosDeUso;
 using pruebaIvynosis.Entities.Servicios;
 
+
+//Pide las firmas de forma manual, se podría hacer para que pidiese un archivo y que lo mire el mismo programa.
 Console.WriteLine("Introduzca firma de demandante (e.j. KN):");
 var demandante = Console.ReadLine();
 

@@ -1,0 +1,11 @@
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\bin\Debug\net7.0\pruebaIvynosis.Entities.deps.json
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\bin\Debug\net7.0\pruebaIvynosis.Entities.dll
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\bin\Debug\net7.0\pruebaIvynosis.Entities.pdb
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.AssemblyInfoInputs.cache
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.AssemblyInfo.cs
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.dll
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\refint\pruebaIvynosis.Entities.dll
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\pruebaIvynosis.Entities.pdb
+C:\Users\Jinshi Ji\source\repos\PruebaIvinosys\pruebaIvynosis.Entities\obj\Debug\net7.0\ref\pruebaIvynosis.Entities.dll

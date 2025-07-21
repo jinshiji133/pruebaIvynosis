@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Juicio.API.props" />
+</Project>

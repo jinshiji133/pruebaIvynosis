@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Juicio.CLI/1.0.0": {
+        "dependencies": {
+          "pruebaIvynosis.Aplicacion": "1.0.0",
+          "pruebaIvynosis.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Juicio.CLI.dll": {}
+        }
+      },
+      "pruebaIvynosis.Aplicacion/1.0.0": {
+        "dependencies": {
+          "pruebaIvynosis.Entities": "1.0.0"
+        },
+        "runtime": {
+          "pruebaIvynosis.Aplicacion.dll": {}
+        }
+      },
+      "pruebaIvynosis.Entities/1.0.0": {
+        "runtime": {
+          "pruebaIvynosis.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Juicio.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "pruebaIvynosis.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "pruebaIvynosis.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

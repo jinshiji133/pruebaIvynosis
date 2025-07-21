@@ -7,6 +7,7 @@ using pruebaIvynosis.Entities.Servicios;
 
 namespace pruebaIvynosis.Aplicacion.pruebaIvynosis.casosDeUso
 {
+    //Definición de todos los casos de uso posible, gana x, gana y y empate
     public class JuicioCasoDeUso
     {
         private readonly CalculadoraPuntos _calculadora;
