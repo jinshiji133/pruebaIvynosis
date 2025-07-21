@@ -10,7 +10,7 @@ while (true)
 {
     Console.WriteLine("\n1.Ejecutar juicio");
     Console.WriteLine("2.Ver historial");
-    Console.WriteLine("Salir");
+    Console.WriteLine("3.Salir");
     Console.Write("Opción: ");
     var option = Console.ReadLine();
 
@@ -36,5 +36,4 @@ while (true)
         }
     }
     if (option == "3") { break; }
-    else { Console.WriteLine("Por favor introduzca un valor válido"); }
 }
