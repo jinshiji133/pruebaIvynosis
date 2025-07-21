@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pruebaIvynosis.Entities", "pruebaIvynosis.Entities", "{5A27342C-1D80-4A09-AB9C-D9D439E2412E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelos", "Modelos", "{2D8923F7-E2B1-40D7-8BC6-549330D60FB7}"
+	ProjectSection(SolutionItems) = preProject
+		Roles.cs = Roles.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{A56754EB-2221-47E2-A49D-CF47EED3C6F9}"
+	ProjectSection(SolutionItems) = preProject
+		CalculadoraPuntos.cs = CalculadoraPuntos.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pruebaIvynosis.Aplicacion", "pruebaIvynosis.Aplicacion", "{EFCE8AEE-5CE7-43C9-B148-753C583C7755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pruebaIvynosis.casosDeUso", "pruebaIvynosis.casosDeUso", "{6EE75655-7FB6-4E0D-A41C-DDEE99995FBA}"
+	ProjectSection(SolutionItems) = preProject
+		JuicioCasoDeUso.cs = JuicioCasoDeUso.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pruebaIvynosis.Infraestructura", "pruebaIvynosis.Infraestructura", "{0045D2B4-133A-4CEE-8461-888778FC2916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{AE750B7C-FB2F-4EB5-9945-53B3CAB75C66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{36C3F518-DB6C-4C35-9B87-18150C6B4C27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegalJudgment.API", "LegalJudgment.API", "{C4FC1378-0B0F-4B46-8ECB-F6398E4B4EE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegalJudgment.CLI", "LegalJudgment.CLI", "{2C165E6E-31C0-4118-A7D9-16BBD89BAA2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LegalJudgment.sln", "LegalJudgment.sln", "{4739CC89-5F0E-450A-BD06-1DC2EBCE598E}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D8923F7-E2B1-40D7-8BC6-549330D60FB7} = {5A27342C-1D80-4A09-AB9C-D9D439E2412E}
+		{A56754EB-2221-47E2-A49D-CF47EED3C6F9} = {5A27342C-1D80-4A09-AB9C-D9D439E2412E}
+		{6EE75655-7FB6-4E0D-A41C-DDEE99995FBA} = {EFCE8AEE-5CE7-43C9-B148-753C583C7755}
+		{AE750B7C-FB2F-4EB5-9945-53B3CAB75C66} = {0045D2B4-133A-4CEE-8461-888778FC2916}
+		{36C3F518-DB6C-4C35-9B87-18150C6B4C27} = {0045D2B4-133A-4CEE-8461-888778FC2916}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D9798E3-3D96-4511-9538-F9B09EFC88B7}
+	EndGlobalSection
+EndGlobal
