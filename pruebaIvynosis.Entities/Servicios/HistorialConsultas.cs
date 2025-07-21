@@ -10,7 +10,7 @@ namespace pruebaIvynosis.Entities.Servicios
     public class HistorialConsultas
     {
         private readonly List<Historial> _historial = new();
-
+        //Añadir los elementos al historial
         public void add (string demandante, string demandado, string resultado)
         {
             _historial.Add(new Historial
@@ -20,6 +20,7 @@ namespace pruebaIvynosis.Entities.Servicios
                 Resultado = resultado
             });
         }
+       //Devolver los elementos del historial
         public IReadOnlyList<Historial> GetAll ()
         {
             return _historial.AsReadOnly(); 

@@ -11,26 +11,28 @@ namespace pruebaIvynosis.Aplicacion.pruebaIvynosis.casosDeUso
     public class JuicioCasoDeUso
     {
         private readonly CalculadoraPuntos _calculadora;
+        //Parte 2 de la prueba
+        private readonly HistorialConsultas _historial;
 
-        public JuicioCasoDeUso(CalculadoraPuntos calculadora)
+        public JuicioCasoDeUso(CalculadoraPuntos calculadora, HistorialConsultas historial)
         {
             _calculadora = calculadora;
+            _historial = historial;
         }
 
-        public string ImprimirGanador(string demandante, string demandado)
-        {
-            var puntosDemandante = _calculadora.CalcularPuntuacion(demandante);
-            var puntosDemandado = _calculadora.CalcularPuntuacion(demandado);
+            public string ImprimirGanador(string demandante, string demandado)
+            {
+                //Al necesitar añadir la información al historial habrá que almacenar la solución en una variable
+                var puntosDemandante = _calculadora.CalcularPuntuacion(demandante);
+                var puntosDemandado = _calculadora.CalcularPuntuacion(demandado);
 
-            if (puntosDemandante > puntosDemandado)
-            {
-                return "Gana demandante";
+                string resultado = puntosDemandante > puntosDemandado ? "Gana Demandante" :
+                                   puntosDemandado > puntosDemandante ? "Gana Demandado" :
+                                   "Empate";
+
+                _historial.add(demandante, demandado, resultado);
+
+                return resultado;
             }
-            if (puntosDemandado > puntosDemandante)
-            {
-                return "Gana demandado";
-            }
-            return "Empate";
         }
-    }
-}
+    } 
